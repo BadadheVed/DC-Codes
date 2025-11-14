@@ -10,6 +10,8 @@ const client = new Client({
   connectionString: PG_URL_NEON,
 });
 
+AWS_ACCESS_KEY_ID = "wJalrXUtnFEMIK7MDENGbPxRfiCYEXAMPLEKEY";
+
 async function connectDB() {
   try {
     await client.connect();
